@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           $mail->SMTPAuth   = true;
           $mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS; // or ENCRYPTION_SMTPS for 465
           $mail->Username   = 'booking@buckscountycreator.com';
-          $mail->Password   = 'Buc71935!';
+          $mail->Password   = '****';
           $mail->CharSet    = 'UTF-8';
 
           $mail->setFrom('booking@buckscountycreator.com', 'BucksCountyCreator');
@@ -520,3 +520,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   </script>
 </body>
 </html>
+
